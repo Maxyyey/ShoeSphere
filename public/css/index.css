@@ -1,0 +1,130 @@
+
+body {
+  font-family: Arial, sans-serif;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  border: none;
+}
+.best-selling {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-bottom: 10px;
+}
+.product-grid-6 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.product {
+  border: 1px solid #ddd;
+  padding: 20px;
+  text-align: center;
+  margin-left: -100px;
+  margin-right: 10px;
+}
+.product-image img {
+  width: 150%; 
+  height: auto; 
+  max-width: 250px;
+}
+.sale {
+  color: red;
+  font-weight: bold;
+}
+.exclusive-offer {
+  background-color: #f5f5f5;
+  padding: 70px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.feedback {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 40px;
+}
+.feedback-item {
+  width: 30%;
+  text-align: center;
+}
+footer {
+  background-color: #f5f5f5;
+  padding: 20px;
+  text-align: center;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #1B5B6F;
+  color: #26FD96;
+}
+header .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+header nav {
+  display: flex;
+  gap: 20px;
+}
+header nav a {
+  color: #26FD96;
+  text-decoration: none;
+  font-size: 16px;
+}
+header nav a:hover {
+  text-decoration: underline;
+}
+header .login-signup a {
+  color: #26FD96;
+  text-decoration: none;
+  font-size: 16px;
+}
+header .login-signup a:hover {
+  text-decoration: underline;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  background-color: #1B5B6F;
+}
+main .content {
+  max-width: 50%;
+}
+main .content h1 {
+  font-size: 90px;
+  margin-bottom: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+main .content p {
+  font-size: 25px;
+  line-height: 1.6;
+  color: #30B1D9;
+}
+main .image {
+  max-width: 100%;
+}
+main .image img {
+  width: 120%;
+  height: auto;
+  margin-left: -50px;
+}
