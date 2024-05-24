@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ShoeSphere</title>
-    <link rel="stylesheet" href="{{ mix('/public/css/index.css') }}">
+    <link rel="stylesheet" href="{{ mix('/public/css/home.css') }}">
 </head>
 <body>
     <header>
@@ -13,10 +13,12 @@
             <a href="#">Home</a>
             <a href="{{ route('shop') }}">Shop</a> 
             <a href="#">Features</a>
-            <a href="#">Contact</a>
+            <a href="{{ route('about') }}">About</a>
+            <a href="{{ route('contact') }}">Contact</a>
         </nav>
         <div class="login-signup">
-            <a href="#">Login/Signup</a>
+            <a href="{{ route('login') }}">Login</a> |
+            <a href="{{ route('signup') }}">Signup</a>
         </div>
     </header>
     <main>
@@ -55,7 +57,9 @@
                     <p>Price | Rate★</p>
                 </div>
             </div>
-            <button><a href="{{ route('shop') }}">Shop Now</a></button>
+            <div class="shop-button">
+                <a href="{{ route('shop') }}">Shop Now  </a>
+            </div>
         </div>
 
         <div class="best-selling">
@@ -105,47 +109,51 @@
                 </div>
             </div>
         </div>
-
-        <div class="exclusive-offer">
+        <div class="container1">
+           
+            <div class="exclusive-offer">
             <h2>Exclusive Offer</h2>
             <p>Unlock the ultimate style upgrade with our exclusive offer. Enjoy savings of up to 40% on our latest New Arrival</p>
+            <span> 07 Days | 30 Hours | 20 Minutes </span>
             <div>
-                <span>07 Days</span>
-                <span>30 Hours</span>
-                <span>20 Minutes</span>
+            <div class="product-image1">
+                <img src="{{ asset('images/shoes.png') }}" alt="Shoes">
             </div>
-            <button><a href="{{ route('shop') }}">Shop Now</a></button>
+                
+            <div class="shop-button">
+                <a href="{{ route('shop') }}">Shop Now  </a>
+            </div>
+            </div>
         </div>
+        
 
         <div class="feedback">
             <div class="feedback-item">
-                <p>Michael Jordan</p>
-                <p>These shoes are incredibly comfortable and stylish—I'm thrilled with my purchase!</p>
+                <h1>Michael Jordan</h1>
+                <p>These shoes are incredibly comfortable and stylish
+                I'm thrilled with my purchase!</p>
             </div>
             <div class="feedback-item">
-                <p>Michael Jordan</p>
-                <p>These shoes are incredibly comfortable and stylish—I'm thrilled with my purchase!</p>
+                <h1>Michael Jordan</h1>
+                <p>These shoes are incredibly comfortable and stylish
+                I'm thrilled with my purchase!</p>
             </div>
             <div class="feedback-item">
-                <p>Michael Jordan</p>
-                <p>These shoes are incredibly comfortable and stylish—I'm thrilled with my purchase!</p>
+                <h1>Michael Jordan</h1>
+                <p>These shoes are incredibly comfortable and stylish
+                I'm thrilled with my purchase!</p>
             </div>
         </div>
-
-        <footer>
-            <div>SHOESPHERE</div>
+        <div class="container">
+            <div class="footer">
+                <div>SHOESPHERE</div>
             <div>
                 <a href="{{ route('shop') }}">Shop</a> | 
-                <a href="#">Products</a> | 
-                <a href="#">Overview</a> | 
-                <a href="#">Pricing</a> | 
-                <a href="#">Releases</a>
+                <a href="#">Products</a>
             </div>
             <div>
                 <a href="#">About Us</a> | 
-                <a href="#">Contact</a> | 
-                <a href="#">News</a> | 
-                <a href="#">Support</a>
+                <a href="#">Contact</a>
             </div>
             <div>
                 <form>
@@ -159,7 +167,9 @@
                 <a href="#">Privacy</a> | 
                 <a href="#">Cookies</a>
             </div>
-        </footer>
+            </div>
+        </div>
+        
     </div>
 </body>
 </html>

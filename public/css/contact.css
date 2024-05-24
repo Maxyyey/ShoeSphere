@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #1B5B6F;
+    color: #26FD96;
+}
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+header nav {
+    display: flex;
+    gap: 20px;
+}
+header nav a {
+    color: #26FD96;
+    text-decoration: none;
+    font-size: 16px;
+}
+header nav a:hover {
+    text-decoration: underline;
+}
+header .login-signup a {
+    color: #26FD96;
+    text-decoration: none;
+    font-size: 16px;
+}
+header .login-signup a:hover {
+    text-decoration: underline;
+}
+.container {
+    padding: 20px;
+}
+.best-selling {
+    text-align: center;
+    margin: 20px 0;
+}
+.best-selling h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+.best-selling p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.product-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.product {
+    text-align: center;
+    margin: 20px;
+    width: 200px;
+    
+}
+.product-image img {
+    width: 100%;
+    height: auto;
+}
+.product p {
+    margin: 10px 0;
+}
+.product .price {
+    font-size: 18px;
+    font-weight: bold;
+}
+.shop-button {
+    margin-top: 20px;
+}
+.shop-button a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #000;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.shop-button a:hover {
+    background-color: #444;
+}

@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #1B5B6F;
+    color: #26FD96;
+}
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+header nav {
+    display: flex;
+    gap: 20px;
+}
+header nav a {
+    color: #26FD96;
+    text-decoration: none;
+    font-size: 16px;
+}
+header nav a:hover {
+    text-decoration: underline;
+}
+header .login-signup a {
+    color: #26FD96;
+    text-decoration: none;
+    font-size: 16px;
+}
+header .login-signup a:hover {
+    text-decoration: underline;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+
+.product-container{
+    float: left;
+    margin-right: -70px;
+    margin-left: 25px;
+    text-align: center;
+}
+.product{
+    float: left;
+    margin-right: 10px;
+    margin-top: 50px;
+}
+/* Product image */
+.product img{
+    max-width: 50%;
+    height: auto; /* Adjust as needed */
+    background-color: #f0f0f0; /* Placeholder color */
+}
+
+/* Product details */
+.product-details {
+    flex-grow: 1;
+    margin-left: 10px;
+    text-align: center;
+}
+
+/* Product name */
+.product-name {
+    font-weight: bold;
+    
+}
+
+/* Price */
+.product-price {
+    color: #009900;
+}
+
+/* Rating (you can use stars or any other representation) */
+.product-rating {
+    color: #ffcc00;
+}
+.shop-button {
+    margin-top: 1000px;
+    text-align: center;
+}
+.shop-button a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #000;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.shop-button a:hover {
+    background-color: #444;
+}
