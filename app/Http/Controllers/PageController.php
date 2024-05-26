@@ -16,4 +16,9 @@ class PageController extends Controller
         return view('contact');
         
     }
+    public function ordering()
+    {
+        return view('ordering');
+        
+    }
 }

@@ -10,7 +10,7 @@
     <header>
         <div class="logo">SHOESPHERE</div>
         <nav>
-            <a href="#">Home</a>
+            <a href="{{ route('home') }}">Home</a>
             <a href="{{ route('shop') }}">Shop</a> 
             <a href="#">Features</a>
             <a href="{{ route('about') }}">About</a>

@@ -33,7 +33,8 @@
 
     <div class="product-container">
                     <div class="product">
-                        <img src="images/shoes.png" alt="Shoes">
+                        <a href="{{ route('ordering') }}"><img src="images/shoes.png" alt="Shoes"></a>
+                        
                     </div> 
                     <div class="product-details">
                     <div class="product-name">Product A</div>

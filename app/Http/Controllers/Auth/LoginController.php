@@ -24,7 +24,7 @@ class LoginController extends Controller
         // Attempt to log the user in
         if (Auth::attempt(['username' => $request->username, 'password' => $request->password])) {
             // Redirect to the intended page or a default page
-            return redirect()->intended('/home');
+            return redirect()->intended('/shop');
         }
 
         // If unsuccessful, redirect back with an error message
