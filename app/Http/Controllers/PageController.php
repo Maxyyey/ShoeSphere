@@ -16,9 +16,9 @@ class PageController extends Controller
         return view('contact');
         
     }
-    public function ordering()
+    public function checkout()
     {
-        return view('ordering');
+        return view('checkout');
         
     }
 }

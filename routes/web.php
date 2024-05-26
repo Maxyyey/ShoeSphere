@@ -19,7 +19,7 @@ Route::get('/shop', function () {
 
 Route::get('/about', [PageController::class, 'about'])->name('about');
 Route::get('/contact', [PageController::class, 'contact'])->name('contact');
-Route::get('/ordering', [PageController::class, 'ordering'])->name('ordering');
+Route::get('/checkout', [PageController::class, 'checkout'])->name('checkout');
 
 Route::get('/login', [LoginController::class, 'showLoginForm'])->name('login');
 Route::post('/login', [LoginController::class, 'login']);

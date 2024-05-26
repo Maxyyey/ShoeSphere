@@ -24,16 +24,16 @@
 
     <div class="filters">
         <button>All Products</button>
-        <button>Rubber</button>
-        <button>Flat</button>
-        <button>Rubber</button>
-        <button>Flat</button>
-        <button>Rubber</button>
+        <button>Athletic</button>
+        <button>Casual</button>
+        <button>Formal</button>
+        <button>Fashion</button>
+        <button>Work</button>
     </div>
 
     <div class="product-container">
                     <div class="product">
-                        <a href="{{ route('ordering') }}"><img src="images/shoes.png" alt="Shoes"></a>
+                        <a href="{{ route('checkout') }}"><img src="images/shoes.jpg" alt="Shoes"></a>
                         
                     </div> 
                     <div class="product-details">
@@ -44,7 +44,7 @@
             </div>
             <div class="product-container">
                     <div class="product">
-                        <img src="images/shoes.png" alt="Shoes">
+                        <img src="images/shoes.jpg" alt="Shoes">
                     </div> 
                     <div class="product-details">
                     <div class="product-name">Product A</div>
@@ -54,7 +54,7 @@
             </div>
             <div class="product-container">
                     <div class="product">
-                        <img src="images/shoes.png" alt="Shoes">
+                        <img src="images/shoes.jpg" alt="Shoes">
                     </div> 
                     <div class="product-details">
                     <div class="product-name">Product A</div>
@@ -64,7 +64,7 @@
             </div>
             <div class="product-container">
                     <div class="product">
-                        <img src="images/shoes.png" alt="Shoes">
+                        <img src="images/shoes.jpg" alt="Shoes">
                     </div> 
                     <div class="product-details">
                     <div class="product-name">Product A</div>
@@ -74,7 +74,7 @@
             </div>
             <div class="product-container">
                     <div class="product">
-                        <img src="images/shoes.png" alt="Shoes">
+                        <img src="images/shoes.jpg" alt="Shoes">
                     </div> 
                     <div class="product-details">
                     <div class="product-name">Product A</div>
@@ -84,7 +84,7 @@
             </div>
             <div class="product-container">
                     <div class="product">
-                        <img src="images/shoes.png" alt="Shoes">
+                        <img src="images/shoes.jpg" alt="Shoes">
                     </div> 
                     <div class="product-details">
                     <div class="product-name">Product A</div>
@@ -94,7 +94,7 @@
             </div>
             <div class="product-container">
                     <div class="product">
-                        <img src="images/shoes.png" alt="Shoes">
+                        <img src="images/shoes.jpg" alt="Shoes">
                     </div> 
                     <div class="product-details">
                     <div class="product-name">Product A</div>
@@ -104,7 +104,7 @@
             </div>
             <div class="product-container">
                     <div class="product">
-                        <img src="images/shoes.png" alt="Shoes">
+                        <img src="images/shoes.jpg" alt="Shoes">
                     </div> 
                     <div class="product-details">
                     <div class="product-name">Product A</div>
@@ -114,7 +114,7 @@
             </div>
             <div class="product-container">
                     <div class="product">
-                        <img src="images/shoes.png" alt="Shoes">
+                        <img src="images/shoes.jpg" alt="Shoes">
                     </div> 
                     <div class="product-details">
                     <div class="product-name">Product A</div>

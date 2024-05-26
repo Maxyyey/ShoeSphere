@@ -27,7 +27,7 @@
             <p>Celebrate your unique style journey as you immerse yourself in a world where every step leads to discovery, connecting with the perfect pair to complement your individuality, effortlessly merging comfort and fashion, all within a seamless shopping experience tailored just for you.</p>
         </section>
         <section class="image">
-            <img src="{{ asset('images/shoes.png') }}" alt="Pair of fashionable shoes">
+            <img src="{{ asset('images/shoes.jpg') }}" alt="Pair of fashionable shoes">
         </section>
     </main>
     <div class="container">
@@ -37,21 +37,21 @@
             <div class="product-grid">
                 <div class="product">
                     <div class="product-image">
-                        <img src="{{ asset('images/shoes.png') }}" alt="Shoes">
+                        <img src="{{ asset('images/shoes.jpg') }}" alt="Shoes">
                     </div>
                     <p>Name of the Product</p>
                     <p>Price | Rate★</p>
                 </div>
                 <div class="product">
                     <div class="product-image">
-                        <img src="{{ asset('images/shoes.png') }}" alt="Shoes">
+                        <img src="{{ asset('images/shoes.jpg') }}" alt="Shoes">
                     </div>
                     <p>Name of the Product</p>
                     <p>Price | Rate★</p>
                 </div>
                 <div class="product">
                     <div class="product-image">
-                        <img src="{{ asset('images/shoes.png') }}" alt="Shoes">
+                        <img src="{{ asset('images/shoes.jpg') }}" alt="Shoes">
                     </div>
                     <p>Name of the Product</p>
                     <p>Price | Rate★</p>
@@ -67,42 +67,42 @@
             <div class="product-grid-6">
                 <div class="product">
                     <div class="product-image">
-                        <img src="{{ asset('images/shoes.png') }}" alt="Shoes">
+                        <img src="{{ asset('images/shoes.jpg') }}" alt="Shoes">
                     </div>
                     <p>Name of the Product</p>
                     <p>Price | Rate★</p>
                 </div>
                 <div class="product">
                     <div class="product-image">
-                        <img src="{{ asset('images/shoes.png') }}" alt="Shoes">
+                        <img src="{{ asset('images/shoes.jpg') }}" alt="Shoes">
                     </div>
                     <p>Name of the Product</p>
                     <p>Price | Rate★</p>
                 </div>
                 <div class="product">
                     <div class="product-image">
-                        <img src="{{ asset('images/shoes.png') }}" alt="Shoes">
+                        <img src="{{ asset('images/shoes.jpg') }}" alt="Shoes">
                     </div>
                     <p>Name of the Product</p>
                     <p>Price | Rate★</p>
                 </div>
                 <div class="product">
                     <div class="product-image">
-                        <img src="{{ asset('images/shoes.png') }}" alt="Shoes">
+                        <img src="{{ asset('images/shoes.jpg') }}" alt="Shoes">
                     </div>
                     <p>Name of the Product</p>
                     <p>Price | Rate★</p>
                 </div>
                 <div class="product">
                     <div class="product-image">
-                        <img src="{{ asset('images/shoes.png') }}" alt="Shoes">
+                        <img src="{{ asset('images/shoes.jpg') }}" alt="Shoes">
                     </div>
                     <p>Name of the Product</p>
                     <p>Price | Rate★</p>
                 </div>
                 <div class="product">
                     <div class="product-image">
-                        <img src="{{ asset('images/shoes.png') }}" alt="Shoes">
+                        <img src="{{ asset('images/shoes.jpg') }}" alt="Shoes">
                     </div>
                     <p>Name of the Product</p>
                     <p>Price | Rate★</p>
@@ -117,7 +117,7 @@
             <span> 07 Days | 30 Hours | 20 Minutes </span>
             <div>
             <div class="product-image1">
-                <img src="{{ asset('images/shoes.png') }}" alt="Shoes">
+                <img src="{{ asset('images/shoes.jpg') }}" alt="Shoes">
             </div>
                 
             <div class="shop-button">
@@ -152,8 +152,8 @@
                 <a href="#">Products</a>
             </div>
             <div>
-                <a href="#">About Us</a> | 
-                <a href="#">Contact</a>
+                <a href="{{ route('about') }}">About</a> | 
+                <a href="{{ route('contact') }}">Contact</a>
             </div>
             <div>
                 <form>

@@ -23,35 +23,28 @@
     </header>
 
     <div class="container">
-        <div class="best-selling">
-            <h1>Best Selling</h1>
-            <p>Get on the trend with our curated selection of best-selling shoes.</p>
-            <div class="product-list">
-                <div class="product">
-                    <div class="product-image">
-                        <img src="{{ asset('images/shoes.png') }}" alt="Shoes">
-                    </div>
-                    <p>Name of the Product</p>
-                    <p class="price">Price | Rate★</p>
-                </div>
-                <div class="product">
-                    <div class="product-image">
-                        <img src="{{ asset('images/shoes.png') }}" alt="Shoes">
-                    </div>
-                    <p>Name of the Product</p>
-                    <p class="price">Price | Rate★</p>
-                </div>
-                <div class="product">
-                    <div class="product-image">
-                        <img src="{{ asset('images/shoes.png') }}" alt="Shoes">
-                    </div>
-                    <p>Name of the Product</p>
-                    <p class="price">Price | Rate★</p>
-                </div>
-            </div>
-            <div class="shop-button">
-                <a href="{{ route('shop') }}">Shop Now</a>
-            </div>
+        <h1>Contact Us</h1>
+        
+        <div class="contact-info">
+            <h2>Contact Information</h2>
+            <p><strong>Address:</strong> 123 Shoe Street, Cityville, State, Country</p>
+            <p><strong>Phone:</strong> +123 456 789</p>
+            <p><strong>Email:</strong> info@example.com</p>
+        </div>
+
+        <h2>Send Us a Message</h2>
+            <form action="submit.php" method="post">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <input type="submit" value="Submit">
+            </form>
         </div>
     </div>
 </body>
